@@ -28,7 +28,8 @@
      COMBINATION = 273,
      SINE = 274,
      COSINE = 275,
-     PI = 276
+     PI = 276,
+     ABS = 277
    };
 #endif
 /* Tokens.  */
@@ -51,7 +52,7 @@
 #define SINE 274
 #define COSINE 275
 #define PI 276
-
+#define ABS 277
 
 
 

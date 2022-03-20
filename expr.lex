@@ -75,6 +75,7 @@ int yywrap() {
 
 [a-zA-Z]+       return( newToken(VAR));
 
+"|"        return(newToken(ABS));        
 "+"        return(newToken(PLUS));
 "-"        return(newToken(MINUS));
 "*"        return(newToken(MULT));
